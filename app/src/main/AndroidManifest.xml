@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareSync"
+        android:name="androidx.multidex.MultiDexApplication">
+
+        <activity android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CareSync.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity" android:exported="false"/>
+        <activity android:name=".activities.SignUpActivity" android:exported="false"/>
+        <activity android:name=".activities.ModuleSelectActivity" android:exported="false"/>
+
+        <!-- Doctor Activities -->
+        <activity android:name=".activities.DoctorRegistrationActivity" android:exported="false"/>
+        <activity android:name=".activities.DoctorDashboardActivity" android:exported="false"/>
+        <activity android:name=".activities.TodaysAppointmentsActivity" android:exported="false"/>
+        <activity android:name=".activities.MyPatientsActivity" android:exported="false"/>
+        <activity android:name=".activities.CreatePrescriptionActivity" android:exported="false"/>
+        <activity android:name=".activities.DoctorProfileActivity" android:exported="false"/>
+        <activity android:name=".activities.PatientHistoryActivity" android:exported="false"/>
+
+        <!-- Patient Activities -->
+        <activity android:name=".activities.PatientRegistrationActivity" android:exported="false"/>
+        <activity android:name=".activities.PatientDashboardActivity" android:exported="false"/>
+        <activity android:name=".activities.BookAppointmentActivity" android:exported="false"/>
+        <activity android:name=".activities.QueueStatusActivity" android:exported="false"/>
+        <activity android:name=".activities.PatientPrescriptionActivity" android:exported="false"/>
+        <activity android:name=".activities.MedicineReminderActivity" android:exported="false"/>
+
+        <!-- Admin Activities -->
+        <activity android:name=".activities.AdminRegistrationActivity" android:exported="false"/>
+        <activity android:name=".activities.AdminDashboardActivity" android:exported="false"/>
+        <activity android:name=".activities.ManageQueueActivity" android:exported="false"/>
+        <activity android:name=".activities.AdminDoctorsActivity" android:exported="false"/>
+        <activity android:name=".activities.AdminPatientsActivity" android:exported="false"/>
+
+        <!-- Foreground Service for Queue Monitoring -->
+        <service android:name=".services.QueueWatcherService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" />
+
+        <!-- Firebase Messaging Service -->
+        <service android:name=".utils.CareSyncMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Alarm Receiver for Medicine Reminders -->
+        <receiver android:name=".utils.MedicineAlarmReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- File Provider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+</manifest>

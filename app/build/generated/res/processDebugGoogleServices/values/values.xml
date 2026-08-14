@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">518126968127</string>
+    <string name="google_api_key" translatable="false">AIzaSyDucufeBz5AHj4G1nxgVMhBtsbyJQIpyqg</string>
+    <string name="google_app_id" translatable="false">1:518126968127:android:a25a2984478a3fdbc0878a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDucufeBz5AHj4G1nxgVMhBtsbyJQIpyqg</string>
+    <string name="google_storage_bucket" translatable="false">caresync-42987.firebasestorage.app</string>
+    <string name="project_id" translatable="false">caresync-42987</string>
+</resources>

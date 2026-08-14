@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#00BCD4</color>
+    <color name="admin_color">#4CAF50</color>
+    <color name="black">#000000</color>
+    <color name="card_shadow">#1A000000</color>
+    <color name="dark_gray">#424242</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="doctor_color">#673AB7</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="orange">#FF9800</color>
+    <color name="patient_color">#673AB7</color>
+    <color name="primary">#673AB7</color>
+    <color name="primary_dark">#512DA8</color>
+    <color name="primary_light">#EDE7F6</color>
+    <color name="red">#F44336</color>
+    <color name="splash_bg">#673AB7</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFC107</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="dashboard_icon">64dp</dimen>
+    <dimen name="icon_large">48dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_xxl">24sp</dimen>
+    <string name="admin">Admin</string>
+    <string name="app_name">CareSync</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="channel_id">caresync_channel</string>
+    <string name="channel_name">CareSync Notifications</string>
+    <string name="doctor">Doctor</string>
+    <string name="doctors">Doctors</string>
+    <string name="email">Email</string>
+    <string name="gcm_defaultSenderId" translatable="false">518126968127</string>
+    <string name="google_api_key" translatable="false">AIzaSyDucufeBz5AHj4G1nxgVMhBtsbyJQIpyqg</string>
+    <string name="google_app_id" translatable="false">1:518126968127:android:a25a2984478a3fdbc0878a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDucufeBz5AHj4G1nxgVMhBtsbyJQIpyqg</string>
+    <string name="google_storage_bucket" translatable="false">caresync-42987.firebasestorage.app</string>
+    <string name="manage_queue">Manage Queue</string>
+    <string name="my_patients">My Patients</string>
+    <string name="password">Password</string>
+    <string name="patient">Patient</string>
+    <string name="patients">Patients</string>
+    <string name="prescription">Prescription</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">caresync-42987</string>
+    <string name="queue_status">Queue Status</string>
+    <string name="reminders">Reminders</string>
+    <string name="select_module">Select Your Role</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="tagline">Your Health, Synchronized</string>
+    <string name="todays_appointments">Today\'s Appointments</string>
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+    <style name="CardStyle">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+    <style name="InputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+    </style>
+    <style name="Theme.CareSync" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.CareSync.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.CareSync.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+    <style name="Theme.CareSync.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

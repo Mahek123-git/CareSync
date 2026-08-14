@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CareSync</string>
+    <string name="tagline">Your Health, Synchronized</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="admin">Admin</string>
+    <string name="select_module">Select Your Role</string>
+    <string name="todays_appointments">Today\'s Appointments</string>
+    <string name="my_patients">My Patients</string>
+    <string name="prescription">Prescription</string>
+    <string name="profile">Profile</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="queue_status">Queue Status</string>
+    <string name="reminders">Reminders</string>
+    <string name="manage_queue">Manage Queue</string>
+    <string name="doctors">Doctors</string>
+    <string name="patients">Patients</string>
+    <string name="channel_id">caresync_channel</string>
+    <string name="channel_name">CareSync Notifications</string>
+</resources>

@@ -1,0 +1,4 @@
+-keep class com.caresync.app.models.** { *; }
+-keep class com.google.firebase.** { *; }
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable

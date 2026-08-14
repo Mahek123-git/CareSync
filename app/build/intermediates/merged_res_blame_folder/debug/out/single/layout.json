@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_sign_up.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/item_reminder.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/item_reminder.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_doctor_dashboard.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_doctor_dashboard.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/item_prescription.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/item_prescription.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/dialog_edit_slots.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/dialog_edit_slots.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_admin_registration.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_admin_registration.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_doctor_registration.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_doctor_registration.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/item_queue.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/item_queue.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_medicine_reminder.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_medicine_reminder.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/item_medicine_input.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/item_medicine_input.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_queue_status.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_queue_status.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/item_appointment.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/item_appointment.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_book_appointment.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_book_appointment.xml"
+    },
+    {
+        "merged": "com.caresync.app-mergeDebugResources-45:/layout/item_reminder.xml",
+        "source": "com.caresync.app-main-48:/layout/item_reminder.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_admin_dashboard.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/item_person.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/item_person.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_todays_appointments.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_todays_appointments.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_patient_prescription.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_patient_prescription.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_generic_list.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_generic_list.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_patient_dashboard.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_patient_dashboard.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_splash.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_doctor_profile.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_doctor_profile.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_manage_queue.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_manage_queue.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_login.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_module_select.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_module_select.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_patient_registration.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_patient_registration.xml"
+    },
+    {
+        "merged": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-mergeDebugResources-45:/layout/activity_create_prescription.xml",
+        "source": "/home/mahek/.gradle/daemon/8.5/com.caresync.app-main-48:/layout/activity_create_prescription.xml"
+    }
+]

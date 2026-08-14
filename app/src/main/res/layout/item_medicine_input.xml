@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_light"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Medicine Name">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMed1Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Dosage Timing:"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!-- Morning / Breakfast -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/cbMed1Morning"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Morning"
+                android:textSize="13sp" />
+            <RadioGroup
+                android:id="@+id/rgMorning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <RadioButton android:id="@+id/rbMorningBefore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Before" android:textSize="12sp"/>
+                <RadioButton android:id="@+id/rbMorningAfter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="After" android:textSize="12sp" android:checked="true"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Afternoon / Lunch -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/cbMed1Afternoon"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Afternoon"
+                android:textSize="13sp" />
+            <RadioGroup
+                android:id="@+id/rgAfternoon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <RadioButton android:id="@+id/rbAfternoonBefore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Before" android:textSize="12sp"/>
+                <RadioButton android:id="@+id/rbAfternoonAfter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="After" android:textSize="12sp" android:checked="true"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Night / Dinner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/cbMed1Night"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Night"
+                android:textSize="13sp" />
+            <RadioGroup
+                android:id="@+id/rgNight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <RadioButton android:id="@+id/rbNightBefore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Before" android:textSize="12sp"/>
+                <RadioButton android:id="@+id/rbNightAfter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="After" android:textSize="12sp" android:checked="true"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
